@@ -22,6 +22,15 @@
         <br>
         <router-link to="/vue-example/10-methods/">10 - Methods</router-link> &nbsp; 
         <router-link to="/vue-example/10-methods-2/">Methods -2 </router-link><br>
+        <router-link to="/vue-example/11-computed/">11 - Computed </router-link>&nbsp;
+        <router-link to="/vue-example/11-computed-2/">Computed 2</router-link>
+        <br>
+        <router-link to="/vue-example/12-exercise">12 - Exercise</router-link>
+        <br>
+        <router-link to="/vue-example/13-watchers">13 - Watchers</router-link> &nbsp;
+        <router-link to="/vue-example/13-watchers-2">Watchers -2</router-link> &nbsp;
+        <router-link to="/vue-example/13-watchers-3">Watchers -3</router-link>
+        
     </div>
 </template>
 
