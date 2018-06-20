@@ -77,23 +77,6 @@ export default {
 </script>
 
 <style>
-.close {
-  position: fixed;
-  top: 40px;
-  right: 30px;
-  color: #000;
-  font-size: 36px;
-  font-weight: 300;
-  background-color: #fff;
-  text-decoration: none;
-  border: 1px solid #000;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-}
-
 .back-list {
   font-size: 36px;
   font-weight: 300;
