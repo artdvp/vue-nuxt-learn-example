@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="containerrr">
     <div>
       <app-logo/>
       <h1 class="title">
@@ -9,9 +9,11 @@
         Nuxt.js project
       </h2>
       <div class="links">
-       <router-link  class="button--green" to="/vue-example">To Example</router-link>
+       <nuxt-link  class="button--green" to="/vue-example">To Example</nuxt-link>
        <br><br>
-       <router-link  class="button--green" to="/coin-api">To Coin API</router-link>
+       <nuxt-link  class="button--green" to="/coin-api">To Coin API</nuxt-link>
+       <br><br>
+       <nuxt-link  class="button--green" to="/vue-contribute">To Vue Contribute</nuxt-link>
       </div>
     </div>
   </section>
@@ -21,6 +23,7 @@
 import AppLogo from "~/components/AppLogo.vue";
 
 export default {
+  layout: "default",
   components: {
     AppLogo
   }
@@ -28,12 +31,13 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.containerrr {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .title {

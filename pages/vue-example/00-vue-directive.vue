@@ -1,6 +1,6 @@
 <template>
     <section class="center">
-        <router-link to="/vue-example/">Back</router-link>
+        <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <h1>00 : Vue Directives</h1>
         <br>

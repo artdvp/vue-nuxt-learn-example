@@ -1,6 +1,6 @@
 <template>
     <section class="center">
-        <router-link to="/vue-example/">Back</router-link>
+        <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <h1>01 : v-for</h1>
         <p>

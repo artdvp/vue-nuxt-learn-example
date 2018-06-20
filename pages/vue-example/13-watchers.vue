@@ -1,6 +1,6 @@
 <template>
     <section class="center fflex">
-        <router-link to="/vue-example/">Back</router-link>
+        <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <br>
         <h1>13 : WATCHERS</h1>

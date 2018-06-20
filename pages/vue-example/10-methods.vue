@@ -1,6 +1,6 @@
 <template>
     <section class="app center" :style="{backgroundColor: `hsl(${x}, 80%, 50%)`}" @mousemove="xCoordinate">
-        <router-link to="/vue-example/">Back</router-link>
+        <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <br>
         <h1>10 : Methods</h1>

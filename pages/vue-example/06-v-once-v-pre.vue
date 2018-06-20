@@ -1,6 +1,6 @@
 <template>
     <section class="center">
-        <router-link to="/vue-example/">Back</router-link>
+        <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <h1>06 : V-ONCE and V-PRE</h1>
         <p>

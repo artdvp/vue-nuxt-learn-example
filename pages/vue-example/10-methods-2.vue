@@ -1,6 +1,6 @@
 <template>
     <section class="app center">
-        <router-link to="/vue-example/">Back</router-link>
+        <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <br>
         <h1>10 : Methods 2 </h1>

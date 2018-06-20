@@ -2,7 +2,7 @@
     <section class="body">
         <div class="app">
             <div class="center">
-            <router-link to="/vue-example/">Back</router-link>
+            <nuxt-link to="/vue-example/">Back</nuxt-link>
         </div>
         <br>
         <br>

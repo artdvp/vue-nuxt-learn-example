@@ -55,6 +55,11 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    },
+    extend(config, options) {
+      return Object.assign({}, config, {
+        devtool: 'source-map'
+      })
     }
   }
 }
