@@ -27,7 +27,7 @@
         </ul>
 
         <br>
-        <nuxt-link to="/vue-contribute" class="no-underline hover:bg-black text-grey hover:text-white">Back</nuxt-link>
+         <nuxt-link to="/" class="no-underline hover:bg-black text-grey hover:text-white bg-white text-grey-darkest py-1 px-2 border border-grey-light rounded shadow">Back</nuxt-link>
         </div>
       </div>
   </section>
