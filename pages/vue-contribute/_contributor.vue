@@ -27,7 +27,7 @@
         </ul>
 
         <br>
-         <nuxt-link to="/" class="no-underline hover:bg-black text-grey hover:text-white bg-white text-grey-darkest py-1 px-2 border border-grey-light rounded shadow">Back</nuxt-link>
+         <nuxt-link to="/vue-contribute" class="no-underline hover:bg-black text-grey hover:text-white bg-white text-grey-darkest py-1 px-2 border border-grey-light rounded shadow">Back</nuxt-link>
         </div>
       </div>
   </section>
@@ -43,14 +43,14 @@ export default {
       contributor: {}
     };
   },
-  async asyncData({ app, params, error }) {
-    const { data } = await axios.get(
-      `https://api.github.com/users/${params.contributor}`
-    );
-    const contributor = data;
-    console.log(contributor);
-    return { contributor };
-  },
+  // async asyncData({ app, params, error }) {
+  //   const { data } = await axios.get(
+  //     `https://api.github.com/users/${params.contributor}`
+  //   );
+  //   const contributor = data;
+  //   console.log(contributor);
+  //   return { contributor };
+  // },
   created() {
     if (process.browser) {
       console.log("created");
