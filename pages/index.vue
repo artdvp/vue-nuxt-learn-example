@@ -5,15 +5,14 @@
       <h1 class="title">
         Vue Project Example
       </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
       <div class="links">
        <nuxt-link  class="button--green" to="/vue-example">To Example</nuxt-link>
        <br><br>
        <nuxt-link  class="button--green" to="/coin-api">To Coin API</nuxt-link>
        <br><br>
        <nuxt-link  class="button--green" to="/vue-contribute">To Vue Contribute</nuxt-link>
+       <br><br>
+       <nuxt-link  class="button--green" to="/vue-hover-animate">To Vue Hover Animate</nuxt-link>
       </div>
     </div>
   </section>

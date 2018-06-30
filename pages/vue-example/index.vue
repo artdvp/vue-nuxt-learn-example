@@ -1,10 +1,11 @@
 <template>
     <div class="center">
         <nuxt-link to="/">Home</nuxt-link>
-        <br>
-        <br>
-        <h1>Vue Example</h1><br>
-        <hr><br>
+        <br><br>
+        <h1>Vue Example</h1>
+        
+        <br><hr><br>
+        
         <h2>Vue 1: Directives + Data Rendering</h2>
         <br>
         <nuxt-link to="/vue-example/00-vue-directive/">00 - Vue Directive</nuxt-link><br>
@@ -18,9 +19,8 @@
         <nuxt-link to="/vue-example/08-v-html/">08 - v-html</nuxt-link><br>
         <nuxt-link to="/vue-example/09-v-text/">09 - v-text</nuxt-link><br>
 
-        <br>
-        <hr>
-        <br>
+        <br><hr><br>
+        
         <h2>Vue 2: Methods, Computed, Watchers</h2>
         <br>
         <nuxt-link to="/vue-example/10-methods/">10 - Methods</nuxt-link> &nbsp; 
@@ -32,7 +32,19 @@
         <br>
         <nuxt-link to="/vue-example/13-watchers">13 - Watchers</nuxt-link> &nbsp;
         <nuxt-link to="/vue-example/13-watchers-2">Watchers -2</nuxt-link> &nbsp;
-        <nuxt-link to="/vue-example/13-watchers-3">Watchers -3</nuxt-link>
+        <nuxt-link to="/vue-example/13-watchers-3">Watchers -3</nuxt-link><br>
+        
+        <br><hr><br>
+        
+        <h2>Vue 3: Components</h2>
+        <br>
+        <nuxt-link to="/vue-example/20-templates/">20 - Templates</nuxt-link><br>
+        <nuxt-link to="/vue-example/21-components/">21 - Components</nuxt-link> &nbsp; 
+        <nuxt-link to="/vue-example/21-components-2/">Components - 2</nuxt-link> &nbsp; 
+        <nuxt-link to="/vue-example/21-components-3/">Components - 3</nuxt-link><br>
+        <nuxt-link to="/vue-example/22-communicating-events/">22 - Communicating Events</nuxt-link> &nbsp;
+        <nuxt-link to="/vue-example/22-communicating-events-2/">Communicating Events - 2</nuxt-link>
+        <br>
         
     </div>
 </template>

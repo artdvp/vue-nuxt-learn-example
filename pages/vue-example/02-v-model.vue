@@ -3,6 +3,8 @@
         <nuxt-link to="/vue-example/">Back</nuxt-link>
         <br>
         <h1>02 : v-model</h1>
+        <a href="https://github.com/artdvp/vue-nuxt-learn-example/blob/master/pages/vue-example/02-v-model.vue" target="_blank">Source</a>
+        <br><br><hr><br>
         <p>
             Creates a relationship between the data 
             in the instance/component 
