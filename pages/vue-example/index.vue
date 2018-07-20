@@ -43,7 +43,11 @@
         <nuxt-link to="/vue-example/21-components-2/">Components - 2</nuxt-link> &nbsp; 
         <nuxt-link to="/vue-example/21-components-3/">Components - 3</nuxt-link><br>
         <nuxt-link to="/vue-example/22-communicating-events/">22 - Communicating Events</nuxt-link> &nbsp;
-        <nuxt-link to="/vue-example/22-communicating-events-2/">Communicating Events - 2</nuxt-link>
+        <nuxt-link to="/vue-example/22-communicating-events-2/">Communicating Events - 2</nuxt-link> &nbsp;
+        <nuxt-link to="/vue-example/22-communicating-events-3/">Communicating Events - 3</nuxt-link>&nbsp;
+        <nuxt-link to="/vue-example/22-communicating-events-4/">Communicating Events - 4</nuxt-link><br>
+        <nuxt-link to="/vue-example/23-slots/">23 - Slots</nuxt-link> &nbsp;
+        <nuxt-link to="/vue-example/23-slots-2/">Slots - 2</nuxt-link> 
         <br>
         
     </div>
