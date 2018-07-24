@@ -17,22 +17,24 @@
 import CommunicatingEvent3CardProduct from "@/components/sdrasner/CommunicatingEvent3CardProduct";
 
 export default {
-  head: {
-    link: [
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Montserrat|PT+Serif"
-      }
-    ]
+  head() {
+    return {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Montserrat|PT+Serif"
+        }
+      ]
+    };
   },
   components: {
     CommunicatingEvent3CardProduct
   },
   data() {
     return {
-      item: 'backpack',
+      item: "backpack",
       counter: 0,
-      url: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/backpack.jpg',
+      url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/backpack.jpg",
       manifest: [
         {
           id: 1,
@@ -44,20 +46,21 @@ export default {
           item: "tshirt",
           url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/tshirt.jpg"
         },
-         {
-           id: 3,
+        {
+          id: 3,
           item: "sweatshirt",
-          url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/sweatshirt.jpg"
-        },
+          url:
+            "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/sweatshirt.jpg"
+        }
       ]
     };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
 .app {
-  font-family: 'PT Serif',serif;
+  font-family: "PT Serif", serif;
   display: flex;
   justify-content: center;
 }

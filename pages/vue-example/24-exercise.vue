@@ -1,11 +1,35 @@
 <template>
-    
+  <section class="content">
+    <div class="center">
+      <nuxt-link to="/vue-example">Back</nuxt-link>
+    </div>
+    <div class="center">
+      <h1>Your Upcoming Destinations</h1>
+    </div>
+    <div class="location-contain">
+      <div v-for="location in locations" :key="location.name" class="locations">
+        <slotex :location="location">
+          <h2>{{ location.name }}</h2>
+        </slotex>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
 import slotex from "@/components/sdrasner/SlotsExercise";
 
 export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=NTR"
+        }
+      ]
+    };
+  },
   components: {
     slotex
   },
@@ -38,5 +62,16 @@ export default {
 };
 </script>
 
+<style lang="scss" scoped>
+.content {
+  width: 100vw;
+  height: 100vh;
+  font-family: "NTR", sans-serif;
+  background: #eee;
+}
 
-
+.location-contain {
+  display: flex;
+  justify-content: center;
+}
+</style>

@@ -48,13 +48,15 @@ import _ from "lodash";
 import TweenMax from "gsap";
 
 export default {
-  head: {
-    link: [
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Mada"
-      }
-    ]
+  head() {
+    return {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css?family=Mada"
+        }
+      ]
+    };
   },
   asyncData() {
     return {

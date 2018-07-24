@@ -1,49 +1,42 @@
 <template>
-    <div class="location-contain">
-        <div class="location">
-            <div class="place">
-                <img :src="img_url" :alt="title_name" width="235" height="300">
-                <h2>{{ title_name }}</h2>
-                <p>{{ description }}</p>
-            </div>
-        </div>
+  <div class="location">
+    <div class="place">
+      <img :src="location.img" width="235" height="300">
+      <slot></slot>
+      <p>{{ location.desc }}</p>
     </div>
+  </div>
 </template>
 
 <script>
-export default {
-    props: ['img_url','title_name','description']
-}
+  export default {
+    props: ['location']
+  }
 </script>
 
 <style lang="scss" scoped>
-h1 {
+  h1 {
     text-align: center;
-}
+  }
 
-.location-contain {
-    display:flex;
-    justify-content: center;
-}
 
-.place {
+  .place {
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 320px;
+    height: 390px;
     justify-content: center;
     background: white;
     border: 1px solid #ddd;
     padding: 20px 20px;
     margin: 10px;
     h2 {
-        margin: 0;
-        text-align: center;
+      margin: 0;
+      text-align: center;
     }
     img {
-        margin: 10px;
-        align-self: center;
+      margin: 10px;
+      align-self: center;
     }
-}
+  }
 </style>
-
