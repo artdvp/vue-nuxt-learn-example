@@ -1,5 +1,9 @@
 # vue-example-sdash
 
+> Learn from : [source](https://github.com/sdras/intro-to-vue)
+> Start Learn : 2018-06-18
+> Last Update : 2018-08-22
+
 > Nuxt.js project
 
 ## Build Setup
@@ -21,4 +25,3 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
-learn from : [source](https://github.com/sdras/intro-to-vue)
