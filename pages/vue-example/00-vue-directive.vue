@@ -1,16 +1,19 @@
 <template>
-    <section class="center">
-        <nuxt-link to="/vue-example/">Back</nuxt-link>
-        <br>
-        <h1>00 : Vue Directives</h1>
-        <a href="https://github.com/artdvp/vue-nuxt-learn-example/blob/master/pages/vue-example/00-vue-directive.vue" target="_blank">Source</a>
-        <br><br><hr><br>
-        <ul class="ulli">
-            <li v-for="(item,index) in items" :key="index">
-                {{ item }}
-            </li>
-        </ul>
-    </section>
+  <section class="center">
+    <nuxt-link to="/vue-example/">Back</nuxt-link>
+    <br>
+    <h1>00 : Vue Directives</h1>
+    <a href="https://github.com/artdvp/vue-nuxt-learn-example/blob/master/pages/vue-example/00-vue-directive.vue" target="_blank">Source</a>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <ul class="ulli">
+      <li v-for="(item,index) in items" :key="index">
+        {{ item }}
+      </li>
+    </ul>
+  </section>
 </template>
 
 <script>
